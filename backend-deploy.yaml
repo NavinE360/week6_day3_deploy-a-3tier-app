@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: backend180125:latest
+        image: navin360/backend180125:latest
         ports:
         - containerPort: 80
         env:
