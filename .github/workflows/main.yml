@@ -87,6 +87,7 @@ jobs:
            
     - name: Deploy to EKS
       run: |
+          cd ~/week6_day3_deploy-a-3tier-app
           kubectl apply -f db-deploy.yaml
           kubectl apply -f backend-deploy.yaml
           kubectl apply -f frontend-deploy.yaml
