@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend180125:latest
+        image: navin360/frontend180125:latest
         ports:
         - containerPort: 80
         env:
